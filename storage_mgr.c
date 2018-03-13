@@ -91,7 +91,7 @@ void main()
  *  Variables:
  *      None
  *  Author:
- *      Vishal Kumar Bimal
+ *      Prasanna Shanmuganathan,Vishal Kumar Bimal
  *
  *  History:
  *      Date            Search String                           Content
@@ -118,7 +118,7 @@ void initStorageManager (void)
  *  Variables:
  *      FILE *fp;
  *  Author:
- *      Vishal Kumar Bimal
+ *        Prasanna Shanmuganathan,Vishal Kumar Bimal
  *
  *  History:
  *      Date            Search String                           Content
@@ -161,7 +161,7 @@ RC createPageFile (char *fileName)
  *      FILE *fp;
         int pages = 0;
  *  Author:
- *      Vishal Kumar Bimal
+ *       Prasanna Shanmuganathan,Vishal Kumar Bimal
  *
  *  History:
  *      Date            Search String                           Content
@@ -217,7 +217,7 @@ RC openPageFile (char *fileName, SM_FileHandle *fHandle)
  *      FILE *fp;
      
  *  Author:
- *      Vishal Kumar Bimal
+ *       Prasanna Shanmuganathan,Vishal Kumar Bimal
  *
  *  History:
  *      Date            Search String                           Content
@@ -269,7 +269,7 @@ RC closePageFile(SM_FileHandle *fHandle)
         struct stat buffer;
      
  *  Author:
- *      Vishal Kumar Bimal
+ *        Prasanna Shanmuganathan,Vishal Kumar Bimal
  *
  *  History:
  *      Date            Search String                           Content
@@ -325,7 +325,7 @@ RC destroyPageFile (char *fileName)
  		FILE *fp;
  *           
  *  Author:
- *      Prasanna Shanmuganathan
+ *        Prasanna Shanmuganathan,Vishal Kumar Bimal
  *
  *  History:
  *      Date            Search String                           Content
@@ -569,7 +569,7 @@ RC readPreviousBlock (SM_FileHandle *fHandle, SM_PageHandle memPage)
  		 FILE *fp;
  *           
  *  Author:
- *      Adithya Ramachandran
+ *        Prasanna Shanmuganathan,Vishal Kumar Bimal
  *
  *  History:
  *      Date            Search String                           Content
@@ -624,7 +624,7 @@ RC readNextBlock (SM_FileHandle *fHandle, SM_PageHandle memPage)
  		 FILE *fp;
  *           
  *  Author:
- *     Adithya Ramachandran
+ *      Prasanna Shanmuganathan,Vishal Kumar Bimal
  *
  *  History:
  *      Date            Search String                           Content
@@ -672,7 +672,7 @@ RC readNextBlock (SM_FileHandle *fHandle, SM_PageHandle memPage)
     	FILE *fp;
  *           
  *  Author:
- *      Adithya Ramachandran
+ *        Prasanna Shanmuganathan,Vishal Kumar Bimal
  *
  *  History:
  *      Date            Search String                           Content
@@ -753,7 +753,7 @@ RC writeBlock (int pageNum, SM_FileHandle *fHandle, SM_PageHandle memPage)
     	FILE *fp;
  *           
  *  Author:
- *      Adithya Ramachandran
+ *      Prasanna Shanmuganathan,Vishal Kumar Bimal
  *
  *  History:
  *      Date            Search String                           Content
@@ -805,7 +805,7 @@ RC writeBlock (int pageNum, SM_FileHandle *fHandle, SM_PageHandle memPage)
     
  *           
  *  Author:
- *      Adithya Ramachandran
+ *       Prasanna Shanmuganathan,Vishal Kumar Bimal
  *
  *  History:
  *      Date            Search String                           Content
@@ -839,7 +839,7 @@ RC writeBlock (int pageNum, SM_FileHandle *fHandle, SM_PageHandle memPage)
     
  *           
  *  Author:
- *      Adithya Ramachandran
+ *        Prasanna Shanmuganathan,Vishal Kumar Bimal
  *
  *  History:
  *      Date            Search String                           Content
